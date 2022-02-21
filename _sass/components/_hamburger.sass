@@ -1,0 +1,57 @@
+.hamburger-menu
+  background-color: white
+  border: 0
+  width: 5rem
+  height: 5rem
+  display: flex
+  flex-direction: column
+  gap: 12%
+  justify-content: center
+  align-items: center
+  transition: all 0.3s ease-in-out
+
+
+
+  &:hover, &:focus
+    gap: 0.4rem
+    transition: gap 0.3s
+
+  &:active
+    gap: 5%
+
+  &:focus
+    transition: outline 0.5s ease-in-out
+
+  &.clicked
+    gap: 0.4rem
+
+    .burger
+      width: 0.4rem
+      transition: width 0.5s ease-in-out
+
+    .top-bun
+      transform:  translateY(1rem) rotate(-45deg)
+      transition: all 0.5s ease-in-out
+    .bottom-bun
+      transform:  translateY(-1rem) rotate(45deg)
+      transition: all 0.5s ease-in-out
+
+  @include tablet
+    display: none
+
+
+
+.burger
+  transition: width 0.5s ease-in-out
+
+.top-bun
+  transition: all 0.5s ease-in-out
+
+.bottom-bun
+  transition: all 0.5s ease-in-out
+
+.burger-layer
+  background-color: black
+  height: 12%
+  width: 4rem
+  border-radius: 10px

@@ -1,0 +1,67 @@
+header
+  padding: 1rem
+
+  @include tablet
+    padding: 1rem 0
+
+#primary-menu
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+
+  &:clicked
+    transition: height 1s
+
+  @include tablet
+    flex-direction: column
+    align-items: flex-start
+
+.banner-img
+  padding: 1px 6px 1px 6px
+  width: 55vw
+  min-width: 210px
+  max-width: 246px
+
+
+.menu-list
+  height: 0
+  overflow: hidden
+  flex-basis: 100%
+  transition: height 1s
+  list-style-type: none
+  padding: 1px 6px 1px 6px
+  margin: 0
+
+  &.clicked
+    height: 9rem
+    transition: all 1s
+
+  @include tablet
+    height: auto
+    display: flex
+    justify-content: space-between
+    margin: 0
+    flex-direction: row
+    width: 55vw
+    min-width: 210px
+    max-width: 246px
+
+.menu-item
+  text-align: center
+  line-height: 3rem
+
+  @include tablet
+    line-height: 2rem
+
+.menu-item a
+    text-decoration: none
+    font-size: 1.8rem
+    color: $black
+
+    &:focus
+      font-weight: bold
+
+    &:hover
+      font-weight: bold

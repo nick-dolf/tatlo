@@ -1,0 +1,49 @@
+#main-menu
+  display: flex
+  flex-direction: column
+
+  @include tablet
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 1px
+
+
+.main-menu-link
+  width: 100%
+  position: relative
+  text-align: center
+  font-size: 0
+
+  @include tablet
+    width: calc(50% - 1px)
+
+  @include desktop
+    width: calc(33.3% - 1px)
+
+
+.main-menu-title
+  width: 100%
+  font-size: 1.8rem
+  font-weight: bold
+  text-transform: uppercase
+  color: black
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  text-align: center
+  z-index: -1
+
+
+.main-menu-image
+  width: 100%
+
+  &:hover
+    opacity: 0
+    transition: all 1s
+
+
+div
+
+
+nav

@@ -1,0 +1,37 @@
+pages:
+
+- title: Weighted Wait
+  url: ./weighted-wait.html
+  image: ./assets/images/weighted-wait/menu.jpg
+
+- title: Inherited Weight
+  url: ./inherited-weight.html
+  image: ./assets/images/inherited-weight/menu.jpg
+
+- title: Bridled Dance
+  url: ./bridled-dance.html
+  image: ./assets/images/bridled-dance/menu.jpg
+
+- title: Department of Accumulated Thoughts Brooklyn Division
+  url: ./dat-brooklyn.html
+  image: ./assets/images/dat-brooklyn/menu.jpg
+
+- title: In Spirit...
+  url: ./in-spirit.html
+  image: ./assets/images/in-spirit/menu.jpg
+
+- title: Department of Accumulated Thoughts 14th St Division
+  url: ./dat-14th.html
+  image: ./assets/images/dat-14th/menu.jpg
+
+- title: Department of Accumulated Thoughts Bowery Division
+  url: ./dat-bowery.html
+  image: ./assets/images/dat-bowery/menu.jpg
+
+- title: Keeping it in the Family
+  url: ./keeping-it-in-the-family.html
+  image: ./assets/images/keeping-it-in-the-family/menu.jpg
+
+- title: Performing Restraint
+  url: ./performing-restraint.html
+  image: ./assets/images/performing-restraint/menu.jpg
