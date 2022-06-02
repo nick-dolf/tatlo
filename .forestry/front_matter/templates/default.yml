@@ -22,13 +22,6 @@ fields:
     required: true
   label: Title
   default: ''
-- name: sections
-  type: blocks
-  label: Sections
-  template_types: []
-  config:
-    min: 
-    max: 
 - name: description
   type: textarea
   default: ''
@@ -39,5 +32,12 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO
+- name: sections
+  type: blocks
+  label: Sections
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - pages/work/inherited-weight.md
