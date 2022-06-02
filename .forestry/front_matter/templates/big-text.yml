@@ -1,4 +1,33 @@
 ---
 label: Big Text
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  hidden: true
+  default: big_text
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  hidden: true
+  default: "/:path/:basename/"
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Important for SEO.
