@@ -32,15 +32,24 @@ fields:
     label: Description (Alt Text)
     description: Required for accessibility.
   label: Menu Image
-- name: date
-  type: datetime
-  label: Date
-  description: ''
+- name: page_image
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: alt_text
+    type: text
+    config:
+      required: true
+    label: Description (Alt Text)
   config:
-    required: false
-    date_format: YYYY
-    time_format: 
-    display_utc: false
+    min: 
+    max: 
+    labelField: 
+  label: Page image
 - name: title
   type: text
   config:
@@ -57,13 +66,15 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO
-- name: page_image
-  type: field_group_list
+- name: date
+  type: datetime
+  label: Date
+  description: ''
   config:
-    min: 
-    max: 
-    labelField: 
-  label: Page image
+    required: false
+    date_format: YYYY
+    time_format: 
+    display_utc: false
 pages:
 - pages/work/inherited-weight.md
 - pages/work/inherited-weight.md
