@@ -18,11 +18,9 @@ sections:
 - type: document
   path: pages/cv.md
   label: CV
-  match: "**/*"
 - type: document
   path: pages/contact.cv
   label: Contact
-  match: "**/*"
 - type: directory
   path: pages
   label: Pages
