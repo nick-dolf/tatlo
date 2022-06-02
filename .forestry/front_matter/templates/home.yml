@@ -5,15 +5,21 @@ fields:
 - type: text
   name: template
   label: template
+  config:
+    required: true
+  default: home
+  hidden: true
 - type: text
   name: permalink
   label: permalink
+  default: "/:path/:basename/"
+  config:
+    required: true
+  hidden: true
 - type: text
   name: title
   label: title
 - type: textarea
   name: description
   label: description
-- type: list
-  name: sections
-  label: sections
+  description: Important for SEO
