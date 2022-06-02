@@ -31,3 +31,5 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO.
+pages:
+- pages/cv.md
