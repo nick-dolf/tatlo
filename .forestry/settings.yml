@@ -27,6 +27,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - big-text
   - home
   - default
 upload_dir: assets/images
