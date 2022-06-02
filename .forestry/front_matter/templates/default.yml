@@ -32,13 +32,25 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO
-- name: sections
-  type: blocks
-  label: Sections
-  template_types: []
+- name: menu_image
+  type: file
+  config:
+    maxSize: 64
+  label: Menu image
+  description: This image will be shown in the image menu on the home page.
+- name: page_images
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
   config:
     min: 
     max: 
+    labelField: 
+  label: Page Images
 pages:
 - pages/work/inherited-weight.md
 - pages/work/inherited-weight.md
