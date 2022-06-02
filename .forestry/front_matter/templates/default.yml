@@ -1,4 +1,37 @@
 ---
 label: Default
 hide_body: true
-fields: []
+fields:
+- name: template
+  type: text
+  config:
+    required: true
+  label: template
+  hidden: true
+  default: default
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  hidden: true
+  default: "/:path/:basename/"
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Page Title
+- name: description
+  type: text
+  config:
+    required: true
+  label: description
+  description: Page description. Important for SEO
+- name: sections
+  type: blocks
+  label: Sections
+  template_types: []
+  config:
+    min: 
+    max: 
