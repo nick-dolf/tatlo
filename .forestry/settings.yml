@@ -19,7 +19,7 @@ sections:
   path: pages/cv.md
   label: CV
 - type: document
-  path: pages/contact.cv
+  path: pages/contact.md
   label: Contact
 - type: directory
   path: pages
