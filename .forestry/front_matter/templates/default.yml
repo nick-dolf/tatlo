@@ -16,6 +16,31 @@ fields:
   label: permalink
   hidden: true
   default: "/:path/:basename/"
+- name: menu_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: alt_text
+    type: text
+    config:
+      required: true
+    label: Description (Alt Text)
+    description: Required for accessibility.
+  label: Menu Image
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: YYYY
+    time_format: 
+    display_utc: false
 - name: title
   type: text
   config:
@@ -32,25 +57,13 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO
-- name: menu_image
-  type: file
-  config:
-    maxSize: 64
-  label: Menu image
-  description: This image will be shown in the image menu on the home page.
-- name: page_images
+- name: page_image
   type: field_group_list
-  fields:
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: image
   config:
     min: 
     max: 
     labelField: 
-  label: Page Images
+  label: Page image
 pages:
 - pages/work/inherited-weight.md
 - pages/work/inherited-weight.md
