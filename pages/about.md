@@ -6,7 +6,7 @@ description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The 
   met in New York City and started to make work together in 2012.
 
 ---
-Tatlo is a collaboration between <a href="http://sarajimenezstudio.com/" target="_blank" class="black"><strong>Sara Jimenez</strong></a> and <strong><a href="http://jadeyumang.com/" target="_blank" class="black">Jade Yumang</a></strong>. The two met in New York City  and started to make work together in 2012.
+Tatlo is a collaboration between [Sara Jimenez](http://sarajimenezstudio.com/ "Sara Jimenez") and [Jade Yumang]( http://jadeyumang.com/ "Jade Yumang"). The two met in New York City  and started to make work together in 2012.
 
 Sara was born in the traditional territory of the Anishinaabeg, Haudenosaunee, Attawandaron (Neutral),  and Wendat peoples of London, Ontario and raised in Bethesda, MD. She received her BA in Semiotics and Communication Theory from the University of Toronto with departmental honors in 2008 and an MFA at  Parsons School of Design in 2013. She is a part-time faculty at Parsons School of Design.
 
