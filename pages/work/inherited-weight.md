@@ -1,5 +1,5 @@
 ---
-template: default
+template: work
 permalink: "/:path/:basename/"
 title: Inherited Weight
 description: ' "The White Man''s Burden: The United States and the Philippine Islands"
