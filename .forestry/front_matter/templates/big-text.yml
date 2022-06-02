@@ -8,7 +8,7 @@ fields:
     required: true
   label: layout
   hidden: true
-  default: big_text
+  default: big-text
 - name: permalink
   type: text
   config:
