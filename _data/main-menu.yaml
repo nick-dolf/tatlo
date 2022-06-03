@@ -5,7 +5,7 @@ pages:
   image: ./assets/images/weighted-wait/menu.jpg
 
 - title: Inherited Weight
-  url: ./inherited-weight.html
+  url: ./pages/work/inherited-weight/
   image: ./assets/images/inherited-weight/menu.jpg
 
 - title: Bridled Dance
