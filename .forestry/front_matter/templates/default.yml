@@ -2,11 +2,11 @@
 label: Default
 hide_body: true
 fields:
-- name: template
+- name: layout
   type: text
   config:
     required: true
-  label: template
+  label: layout
   hidden: true
   default: default
 - name: permalink
