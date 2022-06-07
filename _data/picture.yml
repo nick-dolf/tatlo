@@ -1,0 +1,13 @@
+media-queries:
+  mobile: 'max-width: 599px'
+  tablet: 'max-width: 999px'
+  desktop: 'min-width: 1000px'
+
+presets:
+  menu:
+    formats: [webp]
+    widths: [504]
+    format_quality:
+      jpg: 85
+      webp: 85
+    dimension_attributes: true

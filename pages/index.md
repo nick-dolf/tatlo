@@ -10,7 +10,7 @@ menu:
 
     {% for page in site.data.main-menu.pages %}
     <a href="{{ page.url }}"  class="main-menu-link">
-      <img class="main-menu-image" width="514" height="216" src="{{ page.image }}" />
+      {% include components/img.html image=page.image alt="test" %}
       <div class="main-menu-title">{{ page.title }}</div>
     </a>
     {% endfor %}
