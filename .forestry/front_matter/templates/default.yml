@@ -59,6 +59,15 @@ fields:
     date_format: YYYY
     time_format: 
     display_utc: false
+- name: details
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Details
 pages:
 - pages/work/inherited-weight.md
 - pages/work/inherited-weight.md
