@@ -32,6 +32,15 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO
+- name: carousel
+  type: blocks
+  label: Carousel
+  template_types:
+  - images
+  - embed
+  config:
+    min: 
+    max: 
 - name: date
   type: datetime
   label: Date
@@ -50,19 +59,6 @@ fields:
     schema:
       format: html-blocks
   label: Details
-- name: big
-  type: include
-  config: {}
-  template: big
-  label: Big
-- name: carousel
-  type: blocks
-  label: Carousel
-  template_types:
-  - big
-  config:
-    min: 
-    max: 
 pages:
 - pages/work/inherited-weight.md
 - pages/work/inherited-weight.md
