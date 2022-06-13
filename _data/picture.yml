@@ -4,9 +4,8 @@ media-queries:
   desktop: 'min-width: 1000px'
 
 presets:
-  menu:
+  default:
     formats: [webp]
-    widths: [504]
     format_quality:
       jpg: 85
       webp: 85
