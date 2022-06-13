@@ -12,9 +12,10 @@ description: ' "The White Man''s Burden: The United States and the Philippine Is
   gesture, we are interested in the legacy of imperialism on the psyche and body,
   from generation to generation.'
 sections: []
+page_image: []
+date: 2018-06-01 05:00:00 +0000
 
 ---
-
 {% picture jpt-webp
   assets/images/inherited-weight/menu.jpg
   jpt-mobile: assets/images/inherited-weight/menu.jpg 1:2 entropy %}
