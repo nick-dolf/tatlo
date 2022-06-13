@@ -16,22 +16,6 @@ fields:
   label: permalink
   hidden: true
   default: "/:path/:basename/"
-- name: menu_image
-  type: field_group
-  config: {}
-  fields:
-  - name: image
-    type: file
-    config:
-      maxSize: 64
-    label: Image
-  - name: alt_text
-    type: text
-    config:
-      required: true
-    label: Description (Alt Text)
-    description: Required for accessibility.
-  label: Menu Image
 - name: page_image
   type: field_group_list
   fields:
