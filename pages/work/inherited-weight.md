@@ -19,7 +19,7 @@ carousel:
   image: "/assets/images/img_20180210_193933.jpg"
 - template: images
   image: "/assets/images/img_20180210_193620.jpg"
-details: ''
+details: "<p>testt</p>"
 
 ---
 {% picture jpt-webp
