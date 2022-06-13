@@ -14,6 +14,12 @@ description: ' "The White Man''s Burden: The United States and the Philippine Is
 sections: []
 page_image: []
 date: 2018-06-01 05:00:00 +0000
+carousel:
+- template: images
+  image: "/assets/images/img_20180210_193933.jpg"
+- template: images
+  image: "/assets/images/img_20180210_193620.jpg"
+details: ''
 
 ---
 {% picture jpt-webp
