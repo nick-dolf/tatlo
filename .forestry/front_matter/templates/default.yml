@@ -68,6 +68,11 @@ fields:
     schema:
       format: html-blocks
   label: Details
+- name: big
+  type: include
+  config: {}
+  template: big
+  label: Big
 pages:
 - pages/work/inherited-weight.md
 - pages/work/inherited-weight.md
