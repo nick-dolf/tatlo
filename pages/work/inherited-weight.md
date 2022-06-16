@@ -23,8 +23,10 @@ carousel:
   image: "/assets/images/img_20180210_193746.jpg"
 - template: images
   image: "/assets/images/dsc_0898.JPG"
-details: "<p>Archival ink on cotton scroll; performance<br>Performed for <em>Historical
-  Amnesia</em>, BronxArtSpace, Bronx, NY<br>Curated by Gabriel de Guzman<br>Photo
-  credit: Vivian Chiu</p>"
+details: |-
+  Archival ink on cotton scroll; performance
+  Performed for <em>Historical Amnesia</em>, BronxArtSpace, Bronx, NY
+  Curated by Gabriel de Guzman
+  Photo credit: Vivian Chiu
 
 ---
