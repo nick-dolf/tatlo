@@ -16,7 +16,7 @@ page_image: []
 date: 2018-06-01T05:00:00.000+00:00
 carousel:
 - template: images
-  image: "/assets/images/img_20180210_193933.jpg"
+  image: "/assets/images/img_20180210_193658.jpg"
 - template: images
   image: "/assets/images/img_20180210_193620.jpg"
 details: "<p>Archival ink on cotton scroll; performance<br>Performed for <em>Historical
