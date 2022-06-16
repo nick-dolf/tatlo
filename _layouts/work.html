@@ -1,4 +1,15 @@
 ---
 layout: default
 ---
-{{ content }}
+<p>
+  {{ page.description }}
+</p>
+{% include sections/carousel.html %}
+
+<p>
+  <em>{{ page.title }}</em>
+  <br>
+  {{ page.date | date: "%Y" }}
+  <br>
+  {{ page.details }}
+</p>

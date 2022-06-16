@@ -1,0 +1,21 @@
+<section class="carousel" aria-label="Gallery">
+
+  <button class="carousel-btn carousel-back" type="button" name="button" onclick="back()">
+    {% include components/chevron-left.svg %}
+  </button>
+  <button class="carousel-btn carousel-next" type="button" name="button" onclick="next()">
+    {% include components/chevron-right.svg %}
+  </button>
+
+
+  <div class="slide">
+    {% for item in page.carousel %}
+    {% include components/img.html
+        src=item.image
+        class="slide__image"
+    %}
+    {% endfor %}
+  </div>
+
+<script type="text/javascript" src="{{ '/assets/js/slides.js' | relative_url }}"></script>
+</section>

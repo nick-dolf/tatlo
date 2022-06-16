@@ -22,6 +22,3 @@ carousel:
 details: "<p>testt</p>"
 
 ---
-{% picture jpt-webp
-  assets/images/inherited-weight/menu.jpg
-  jpt-mobile: assets/images/inherited-weight/menu.jpg 1:2 entropy %}
