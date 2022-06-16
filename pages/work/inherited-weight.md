@@ -13,12 +13,14 @@ description: ' "The White Man''s Burden: The United States and the Philippine Is
   from generation to generation.'
 sections: []
 page_image: []
-date: 2018-06-01 05:00:00 +0000
+date: 2018-06-01T05:00:00.000+00:00
 carousel:
 - template: images
   image: "/assets/images/img_20180210_193933.jpg"
 - template: images
   image: "/assets/images/img_20180210_193620.jpg"
-details: "<p>testt</p>"
+details: "<p>Archival ink on cotton scroll; performance<br>Performed for <em>Historical
+  Amnesia</em>, BronxArtSpace, Bronx, NY<br>Curated by Gabriel de Guzman<br>Photo
+  credit: Vivian Chiu</p>"
 
 ---
