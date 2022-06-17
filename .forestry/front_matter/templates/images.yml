@@ -3,7 +3,7 @@ label: Block Image
 hide_body: true
 display_field: alt_text
 fields:
-- name: link
+- name: src
   type: file
   config:
     maxSize: 64
