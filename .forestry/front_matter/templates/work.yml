@@ -8,7 +8,7 @@ fields:
     required: true
   label: layout
   hidden: true
-  default: default
+  default: work
 - name: permalink
   type: text
   config:
@@ -61,4 +61,3 @@ fields:
   label: Details
 pages:
 - pages/work/inherited-weight.md
-- pages/work/weighted-wait-1.md
