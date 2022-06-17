@@ -1,9 +1,14 @@
 ---
 layout: home
 title: Home
-permalink: "/"
-description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The two met in New York City and started to make work together in 2012.
+permalink: "/:path/:basename/"
+description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The two
+  met in New York City and started to make work together in 2012.
 menu:
+- link: pages/work/bridled-dance.md
+  src: "/assets/images/bridled-dance/menu.jpg"
+  title: Bridled Dance
+  alt_text: The two artists (Sara and Jade) wearing wreaths in a quarry.
 - link: pages/work/weighted-wait.md
   title: Weighted Wait
   alt_text: The two artists (Jade and Sara) crawling on the ground
