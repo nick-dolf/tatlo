@@ -26,7 +26,7 @@ fields:
 - name: menu
   type: field_group_list
   fields:
-  - name: page
+  - name: link
     type: select
     default: []
     config:
