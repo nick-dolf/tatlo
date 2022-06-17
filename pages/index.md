@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-permalink: "/:path/:basename/"
+permalink: "/"
 description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The two
   met in New York City and started to make work together in 2012.
 menu:
