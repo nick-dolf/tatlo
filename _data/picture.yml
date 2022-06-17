@@ -10,3 +10,11 @@ presets:
       jpg: 85
       webp: 85
     dimension_attributes: true
+  thumbnail:
+    formats: [webp]
+    format_quality:
+      jpg: 85
+      webp: 85
+    dimension_attributes: true
+    crop: '1:1'
+    widths: [200]
