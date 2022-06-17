@@ -12,6 +12,8 @@ sections:
   label: Work
   create: documents
   match: "**/*"
+  templates:
+  - work
 - type: document
   path: pages/about.md
   label: About
