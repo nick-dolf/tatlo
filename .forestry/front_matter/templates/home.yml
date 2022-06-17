@@ -38,11 +38,6 @@ fields:
         file: 
         path: 
     label: Page
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
   - name: image
     type: include
     config: {}
