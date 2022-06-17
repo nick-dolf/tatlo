@@ -1,7 +1,7 @@
 pages:
 
 - title: Weighted Wait
-  url: ./weighted-wait.html
+  url: ./pages/work/weighted-wait/
   image: ./assets/images/weighted-wait/menu.jpg
 
 - title: Inherited Weight

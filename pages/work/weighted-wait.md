@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work
 permalink: "/:path/:basename/"
 title: Weighted Wait
 description: Weighted Wait elaborates, through movement, how relationships oscillate
