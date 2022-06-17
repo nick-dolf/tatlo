@@ -33,3 +33,5 @@ fields:
       type: pages
       section: work
   label: Menu
+pages:
+- pages/index.md

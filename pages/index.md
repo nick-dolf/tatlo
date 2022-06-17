@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: home
 title: Home
-permalink: "/"
+permalink: "/:path/:basename/"
 menu:
 - pages/work/inherited-weight.md
+- pages/work/weighted-wait.md
 description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The two
   met in New York City and started to make work together in 2012.
 
