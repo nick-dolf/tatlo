@@ -61,4 +61,5 @@ fields:
   label: Details
 pages:
 - pages/work/inherited-weight.md
+- pages/work/weighted-wait-1.md
 - pages/work/weighted-wait.md
