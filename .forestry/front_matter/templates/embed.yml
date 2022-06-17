@@ -1,5 +1,5 @@
 ---
-label: Embed
+label: Block Embed
 hide_body: true
 fields:
 - name: code

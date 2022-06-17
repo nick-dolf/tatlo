@@ -1,8 +1,8 @@
 ---
-label: images
+label: Block Image
 hide_body: true
 fields:
-- name: image
+- name: link
   type: file
   config:
     maxSize: 64
