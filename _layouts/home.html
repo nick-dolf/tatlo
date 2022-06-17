@@ -1,3 +1,16 @@
 ---
 layout: default
 ---
+<main id="main-menu">
+
+{% for item in page.menu %}
+<a href="{{ item.link | replace: '.md' '/' }}" class="main-menu-link">
+{% include components/img.html
+    src=item.src
+    alt=item.alt_text
+    class="main-menu-image"
+%}
+<div class="main-menu-title">{{ item.title }}</div>
+</a>
+{% endfor %}
+</main>
