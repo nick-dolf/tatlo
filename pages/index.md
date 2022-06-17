@@ -9,6 +9,11 @@ menu:
   title: Weighted Wait
   link: "/assets/images/weighted-wait/menu.jpg"
   alt_text: The two artists (Jade and Sara) crawling on the ground
+  src: ''
+- link: pages/work/inherited-weight.md
+  title: Inherited Weight
+  src: "/assets/images/inherited-weight/menu.jpg"
+  alt_text: The artists (Sara and Jade) wrapped in warning tape around their heads.
 
 ---
 <main id="main-menu">
