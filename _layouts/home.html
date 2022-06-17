@@ -10,7 +10,8 @@ layout: default
     alt=item.alt_text
     class="main-menu-image"
 %}
-<div class="main-menu-title">{{ item.title }}</div>
+{% assign page-title = site.pages | where: 'path', item.link | first %}
+<div class="main-menu-title">{{ page-title.title }}</div>
 </a>
 {% endfor %}
 </main>
