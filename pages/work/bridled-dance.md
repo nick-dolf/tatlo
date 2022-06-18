@@ -13,6 +13,9 @@ carousel:
   code: <iframe src="https://player.vimeo.com/video/319372662?autoplay=1&title=0&byline=0&portrait=0"
     width="1012" height="569" frameborder="0" webkitallowfullscreen mozallowfullscreen
     allowfullscreen></iframe>
+- template: images
+  src: "/assets/images/tatlojimenezyumangfloraldancestill1.jpg"
+  alt_text: The artists (Sara and Jade) wearing wreaths in a quarry.
 date: 
 details: ''
 
