@@ -1,5 +1,5 @@
 let slideIndex = 0
-let slides = document.getElementsByClassName('slide__image');
+let slides = document.getElementsByClassName('slide');
 let thumbs = document.getElementsByClassName('slide-thumb');
 showSlides(0)
 
@@ -25,6 +25,6 @@ function showSlides(n) {
     thumbs[i].classList.remove('active')
   }
 
-  slides[n].style.display = "block"
+  slides[n].style.display = "flex"
   thumbs[n].classList.add('active')
 }

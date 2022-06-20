@@ -36,11 +36,11 @@ fields:
   type: blocks
   label: Carousel
   template_types:
-  - images
+  - image
   - embed
   config:
-    min: 
-    max: 
+    min:
+    max:
 - name: date
   type: datetime
   label: Date
@@ -48,7 +48,7 @@ fields:
   config:
     required: false
     date_format: YYYY
-    time_format: 
+    time_format:
     display_utc: false
 - name: details
   type: textarea

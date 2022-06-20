@@ -6,23 +6,28 @@
     <button class="carousel-btn carousel-next" type="button" name="button" aria-label="next image" onclick="next()">
       {% include components/chevron-right.svg %}
     </button>
-    <div class="slide">
-      {% for item in page.carousel %}
-      {% include components/img.html
-          src=item.image
-          class="slide__image"
-      %}
-      {% endfor %}
-    </div>
+    {% for item in page.carousel %}
+      <div class="slide">
+        {% if item.template == "image" %}
+        {% include components/img.html
+            src=item.src
+            class="slide-image"
+        %}
+        {% elsif item.template == "embed" %}
+        {{ item.code }}
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
   <div class="thumbnails">
     {% for item in page.carousel %}
     <button class="btn-thumb" type="button" name="button" onclick="showSlides({{ forloop.index0 }})" aria-label="display image">
-    {% include components/img-thumb.html
-        src=item.image
-        class="slide-thumb"
-    %}
-  </button>
+
+      <div class="slide-thumb">
+
+      </div>
+
+    </button>
     {% endfor %}
   </div>
 <script type="text/javascript" src="{{ '/assets/js/slides.js' | relative_url }}"></script>
