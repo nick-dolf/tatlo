@@ -14,5 +14,6 @@ details: "<p>Performance, portable cubicle, and office supplies<br>Performed in 
   Museum)<br>for <em>Crossing Brooklyn</em>, Brooklyn Museum, Brooklyn, NY<br>Curated
   by Eugenie Tsai and Rujeko Hockley<br>Photo credit: Em Miller and Cupid Ojala<br>Video
   Credit: Em Miller, Cupid Ojala, and James Rich<br>With Michael Watson</p>"
+date_end: 2015-06-01 05:00:00 +0000
 
 ---
