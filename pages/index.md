@@ -5,6 +5,9 @@ permalink: "/"
 description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The two
   met in New York City and started to make work together in 2012.
 menu:
+- link: pages/work/department-of-accumulated-thoughts-14th-street-division.md
+  src: "/assets/images/dat-14th/menu.jpg"
+  alt_text: People on the sidewalk lining up to get interviewed in a pop up office.
 - link: pages/work/in-spirit.md
   src: "/assets/images/in-spirit/menu.jpg"
   alt_text: Sara marking time, using oil pastel, on Jade and Michael's bodies.
