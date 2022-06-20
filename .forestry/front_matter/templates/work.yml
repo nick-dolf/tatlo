@@ -59,6 +59,15 @@ fields:
     date_format: YYYY
     time_format: 
     display_utc: false
+- name: date_end
+  type: datetime
+  label: Date(end)
+  description: ''
+  config:
+    required: false
+    date_format: YYYY
+    time_format: 
+    display_utc: false
 - name: details
   type: textarea
   default: ''
