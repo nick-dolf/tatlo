@@ -32,6 +32,15 @@ fields:
       format: markdown
   label: Description
   description: Important for SEO
+- name: info
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Info
 - name: carousel
   type: blocks
   label: Carousel
@@ -50,6 +59,15 @@ fields:
     date_format: YYYY
     time_format:
     display_utc: false
+- name: date_end
+  type: datetime
+  label: Date(end)
+  description: ''
+  config:
+    required: false
+    date_format: YYYY
+    time_format: 
+    display_utc: false
 - name: details
   type: textarea
   default: ''
@@ -62,4 +80,6 @@ fields:
 pages:
 - pages/work/bridled-dance.md
 - pages/work/bridled-dance.md
+- pages/work/department-of-accumulated-thoughts-brooklyn-division.md
+- pages/work/in-spirit.md
 - pages/work/inherited-weight.md
