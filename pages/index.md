@@ -5,9 +5,10 @@ permalink: "/"
 description: Tatlo is a collaboration between Sara Jimenez and Jade Yumang. The two
   met in New York City and started to make work together in 2012.
 menu:
-- link: pages/work/department-of-accumulated-thoughts-bowery-division.md
-  src: "/assets/images/dat-bowery/menu.jpg"
-  alt_text: Sara and Jade staring at each other while pushing a shopping cart.
+- link: pages/work/keeping-it-in-the-family.md
+  src: "/assets/images/keeping-it-in-the-family/menu.jpg"
+  alt_text: The two artists (Jade and Sara) holding red string while being lit by
+    a spotlight.
 - link: pages/work/weighted-wait.md
   title: Weighted Wait
   alt_text: The two artists (Jade and Sara) crawling on the ground
@@ -30,5 +31,8 @@ menu:
 - link: pages/work/department-of-accumulated-thoughts-14th-street-division.md
   src: "/assets/images/dat-14th/menu.jpg"
   alt_text: People on the sidewalk lining up to get interviewed in a pop up office.
+- link: pages/work/department-of-accumulated-thoughts-bowery-division.md
+  src: "/assets/images/dat-bowery/menu.jpg"
+  alt_text: Sara and Jade staring at each other while pushing a shopping cart.
 
 ---
