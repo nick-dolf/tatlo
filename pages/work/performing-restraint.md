@@ -17,7 +17,13 @@ info: "<p><em>Performing Restraint</em> is based on the idea of constraints, own
   taking priority. Viewers are allowed to enter the space and interact. At the end
   of the performance we leave the space exactly how it is. What is left is the residue
   of the performance, the mark of our actions, and the visual product of our labor.</p>"
-carousel: []
+carousel:
+- template: image
+  src: "/assets/images/_mg_2695.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
+- template: image
+  src: "/assets/images/_mg_2702.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
 date: 2012-06-01T05:00:00.000+00:00
 date_end: 
 details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br>Video credit:
