@@ -9,8 +9,7 @@ info: "<p><em>In Spirit</em>… is a performance dedicated to the victims of Typ
   a brief space for pause, mourning and reflection.</p>"
 carousel:
 - template: embed
-  code: <iframe width="1012" height="569" src="https://www.youtube.com/embed/VLPB97Uv4Xs"
-    frameborder="0" allowfullscreen></iframe>
+  code: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VLPB97Uv4Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 - template: image
   src: "/assets/images/img_6362.jpg"
   alt_text: The artists with counting marks on them.
@@ -24,7 +23,7 @@ carousel:
   src: "/assets/images/img_6395.jpg"
   alt_text: Jade and Micahel covered in counting marks.
 date: 2013-06-01T05:00:00.000+00:00
-date_end: 
+date_end:
 details: "<p>Two-hour performance, sewn silk chiffon, oil pastel, food dye, and metal
   container<br>Performed at Strange Loop Gallery<br>Photo credit: Cupid Ojala and
   Caitlin Turski<br>Video Credit: Caitlin Turski<br>With Michael Watson</p>"
