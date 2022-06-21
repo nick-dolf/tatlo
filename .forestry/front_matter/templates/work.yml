@@ -30,8 +30,10 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+    max: 160
   label: Description
-  description: Important for SEO
+  description: Important for SEO. Max 160 chars to ensure it looks good in search
+    results.
 - name: info
   type: textarea
   default: ''
