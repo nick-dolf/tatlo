@@ -9,6 +9,8 @@ layout:
   {% seo %}
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="preload" href="{{ "/assets/fonts/PT-Root-UI_Medium.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "/assets/fonts/PT-Root-UI_Bold.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
   {% include header.html %}
