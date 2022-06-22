@@ -1,5 +1,15 @@
 // Mobile First Design
 
+// Common Spacings
+@mixin margin-std
+  margin: 16px
+
+  @include tablet
+    margin: 16px 32px
+
+
+
+// Media breakpoints
 @mixin tablet
   @media screen and (min-width: 600px)
     @content
