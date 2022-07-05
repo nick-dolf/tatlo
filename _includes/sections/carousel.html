@@ -24,8 +24,16 @@
     <button class="btn-thumb" type="button" name="button" onclick="showSlides({{ forloop.index0 }})" aria-label="display image">
 
       <div class="slide-thumb">
-
+      {% if item.template == "image" %}
+      {% include components/img-thumb.html
+          src=item.src
+          class="slide-image"
+      %}
+      {% elsif item.template == "embed" %}
+      {% endif %}
       </div>
+
+
 
     </button>
     {% endfor %}
