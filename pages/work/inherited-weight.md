@@ -17,13 +17,8 @@ page_image: []
 date: 2018-06-01T05:00:00.000+00:00
 carousel:
 - template: image
-  src: "/assets/images/img_20180210_193658.jpg"
-- template: image
-  src: "/assets/images/img_20180210_193620.jpg"
-- template: image
-  src: "/assets/images/img_20180210_193746.jpg"
-- template: image
-  src: "/assets/images/dsc_0898.JPG"
+  src: "/assets/images/_mg_2695.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
 details: "<p>Archival ink on cotton scroll; performance<br>Performed for <em>Historical
   Amnesia</em>, BronxArtSpace, Bronx, NY<br>Curated by Gabriel de Guzman<br>Photo
   credit: Vivian Chiu</p>"
