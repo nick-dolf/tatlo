@@ -12,6 +12,7 @@
         {% include components/img.html
             src=item.src
             class="slide-image"
+            alt=item.alt_text
         %}
         {% elsif item.template == "embed" %}
         {{ item.code }}
@@ -28,6 +29,7 @@
       {% include components/img-thumb.html
           src=item.src
           class="slide-image"
+          alt=item.alt_text
       %}
       {% elsif item.template == "embed" %}
       {% endif %}
