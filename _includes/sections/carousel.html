@@ -32,6 +32,11 @@
           alt=item.alt_text
       %}
       {% elsif item.template == "embed" %}
+      {% include components/img-thumb.html
+          src=item.thumb
+          class="slide-image"
+          alt=item.alt_text
+      %}
       {% endif %}
       </div>
 

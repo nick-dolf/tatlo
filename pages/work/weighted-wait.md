@@ -9,6 +9,8 @@ info: "<p><em>Weighted Wait</em> elaborates, through movement, how relationships
 carousel:
 - template: embed
   code: <iframe src="https://player.vimeo.com/video/319372662?h=bc489ee8f6&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  thumb: "/assets/images/weighted-wait/vimeo-thumb.jpeg"
+  alt_text: Vimeo thumbnail, click to play.
 - template: image
   src: "/assets/images/weighted-wait/IMG_1544.JPG"
   alt_text: The artists(Sara and Jade) on the floor.
