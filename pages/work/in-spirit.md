@@ -10,7 +10,7 @@ info: "<p><em>In Spirit</em>… is a performance dedicated to the victims of Typ
 carousel:
 - template: embed
   code: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VLPB97Uv4Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  thumb: "/assets/images/weighted-wait/vimeo-thumb.jpeg"
+  thumb: "/assets/images/in-spirit/youtube-thumb.jpg"
   alt_text: Vimeo thumbnail, click to play.
 - template: image
   src: "/assets/images/img_6362.jpg"

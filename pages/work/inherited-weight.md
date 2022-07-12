@@ -53,7 +53,7 @@ carousel:
   alt_text: The artists(Sara and Jade) both wrapping themselves in tape.
 date: 2018-06-01T05:00:00.000+00:00
 details: "<p>Archival ink on cotton scroll; performance<br>Performed for <em>Historical
-  Amnesia</em>, BronxArtSpace, Bronx, NY<br>Curated by Gabriel de Guzman<br>Photo
-  credit: Vivian Chiu</p>"
+  Amnesia</em>, BronxArtSpace, Bronx, NY<br>Curated by Gabriel de Guzman<br><small>Photo
+  credit: Vivian Chiu</small></p>"
 
 ---
