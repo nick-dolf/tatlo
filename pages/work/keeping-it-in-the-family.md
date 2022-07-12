@@ -10,9 +10,9 @@ info: <p><a href="https://www.dropbox.com/s/huf5lqn23jpr4br/KEEPING%20IT%20IN%20
   script here</a>.</p>
 carousel: []
 date: 2012-06-01 05:00:00 +0000
-date_end: 
+date_end:
 details: "<p>24 hr performance<br>Photo credits: David Connolly, AM DeBrincat, Eyal
   Perry, and Caitlin Turski<br>Video credits: Maricruz Alarcón, Grace Hong, and Eyal
-  Perry<br>With Michael Watson</p>"
+  Perry<br><small>With Michael Watson</small></p>"
 
 ---

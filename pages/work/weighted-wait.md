@@ -31,6 +31,6 @@ carousel:
   alt_text:  Sara pulling Jade by one arm along the floor.
 date: 2019-06-01T05:00:00.000+00:00
 details: '<p>Performance<br>Performed for "Celebrating the Lunar Year", Dedalus Foundation
-  at Industry City, Brooklyn, NY<br>Video credit: Vivian Chiu</p>'
+  at Industry City, Brooklyn, NY<br><small>Video credit: Vivian Chiu</small></p>'
 
 ---

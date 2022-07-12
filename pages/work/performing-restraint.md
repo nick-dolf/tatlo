@@ -25,8 +25,8 @@ carousel:
   src: "/assets/images/_mg_2702.JPG"
   alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
 date: 2012-06-01T05:00:00.000+00:00
-date_end: 
-details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br>Video credit:
-  Claire Robertson<br>With Michael Watson</p>"
+date_end:
+details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br><small>Video credit:
+  Claire Robertson<br>With Michael Watson</small></p>"
 
 ---

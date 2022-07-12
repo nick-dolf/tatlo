@@ -61,7 +61,7 @@ carousel:
 date: 2013-06-01 05:00:00 +0000
 date_end:
 details: "<p>Performance, portable cubicle, and office supplies<br>Performance for
-  Art In Odd Places: NUMBER<br>Curated by Radhika Subramaniam<br>Photo credit: Caitlin
-  Turski<br>With Michael Watson</p>"
+  Art In Odd Places: NUMBER<br>Curated by Radhika Subramaniam<br><small>Photo credit: Caitlin
+  Turski<br>With Michael Watson</small></p>"
 
 ---
