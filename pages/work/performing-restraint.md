@@ -21,16 +21,10 @@ carousel:
 - template: image
   src: "/assets/images/performing-restraint/Untitled_Panorama1web.jpg"
   alt_text: The space with a plywood wall.
-- template: embed
-  code: <iframe src="https://player.vimeo.com/video/49579444?h=671753fb25" width="640"
-    height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-    allowfullscreen></iframe>
-  thumb: "/assets/images/performing-restraint/vimeo-thumb.jpeg"
-  alt_text: Vimeo thumbnail, click to play.
 - template: vimeo
   link: https://player.vimeo.com/video/49579444?h=671753fb25
-  src: ''
-  alt_text: ''
+  src: "/assets/images/performing-restraint/vimeo-thumb.jpeg"
+  alt_text: Vimeo thumbnail, click to play.
 - template: image
   src: "/assets/images/performing-restraint/_MG_2695.JPG"
   alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
@@ -68,7 +62,7 @@ carousel:
   src: "/assets/images/performing-restraint/_MG_3127.JPG"
   alt_text: The artists(Sara, Jade and Michael) sleeping together on the ground.
 date: 2012-06-01 05:00:00 +0000
-date_end: 
+date_end:
 details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br>Video credit:
   Claire Robertson<br>With Michael Watson</p>"
 

@@ -16,6 +16,9 @@
         %}
         {% elsif item.template == "embed" %}
         {{ item.code }}
+        {% elsif item.template == "vimeo" %}
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@slightlyoff/lite-vimeo@0.1.1/lite-vimeo.js"></script>
+      <lite-vimeo videoid="364402896"></lite-vimeo>
         {% endif %}
       </div>
     {% endfor %}
@@ -34,6 +37,12 @@
       {% elsif item.template == "embed" %}
       {% include components/img-thumb.html
           src=item.thumb
+          class="slide-image"
+          alt=item.alt_text
+      %}
+      {% elsif item.template == "vimeo" %}
+      {% include components/img-thumb.html
+          src=item.src
           class="slide-image"
           alt=item.alt_text
       %}
