@@ -1,4 +1,14 @@
 ---
 label: Youtube
 hide_body: true
-fields: []
+fields:
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
+- name: thumbnail
+  type: include
+  config: {}
+  template: image
+  label: Thumbnail
