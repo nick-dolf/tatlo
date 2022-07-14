@@ -28,7 +28,7 @@ carousel:
   thumb: "/assets/images/performing-restraint/vimeo-thumb.jpeg"
   alt_text: Vimeo thumbnail, click to play.
 - template: vimeo
-  link: ''
+  link: https://player.vimeo.com/video/49579444?h=671753fb25
   src: ''
   alt_text: ''
 - template: image
@@ -67,9 +67,9 @@ carousel:
 - template: image
   src: "/assets/images/performing-restraint/_MG_3127.JPG"
   alt_text: The artists(Sara, Jade and Michael) sleeping together on the ground.
-date: 2012-06-01T05:00:00.000+00:00
+date: 2012-06-01 05:00:00 +0000
 date_end: 
-details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br><small>Video
-  credit: Claire Robertson<br>With Michael Watson</small></p>"
+details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br>Video credit:
+  Claire Robertson<br>With Michael Watson</p>"
 
 ---
