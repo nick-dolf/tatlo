@@ -22,8 +22,8 @@ carousel:
   src: "/assets/images/performing-restraint/Untitled_Panorama1web.jpg"
   alt_text: The space with a plywood wall.
 - template: vimeo
-  link: https://player.vimeo.com/video/49579444?h=671753fb25
-  src: "/assets/images/performing-restraint/vimeo-thumb.jpeg"
+  id: 49579444
+  thumb: "/assets/images/performing-restraint/vimeo-thumb.jpeg"
   alt_text: Vimeo thumbnail, click to play.
 - template: image
   src: "/assets/images/performing-restraint/_MG_2695.JPG"

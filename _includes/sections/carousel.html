@@ -18,7 +18,14 @@
         {{ item.code }}
         {% elsif item.template == "vimeo" %}
         <script type="module" src="https://cdn.jsdelivr.net/npm/@slightlyoff/lite-vimeo@0.1.1/lite-vimeo.js"></script>
-      <lite-vimeo videoid="364402896"></lite-vimeo>
+        <div class="video-embed">
+          <lite-vimeo videoid="{{ item.id }}"></lite-vimeo>
+        </div>
+        {% elsif item.template == "youtube" %}
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.js"></script>
+        <div class="video-embed">
+          <lite-youtube videoid="{{ item.id }}"></lite-youtube>
+        </div>
         {% endif %}
       </div>
     {% endfor %}
@@ -42,7 +49,7 @@
       %}
       {% elsif item.template == "vimeo" %}
       {% include components/img-thumb.html
-          src=item.src
+          src=item.thumb
           class="slide-image"
           alt=item.alt_text
       %}
