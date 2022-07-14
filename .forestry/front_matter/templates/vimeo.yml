@@ -2,14 +2,18 @@
 label: Vimeo
 hide_body: true
 fields:
-- name: link
+- name: id
   type: text
   config:
     required: false
-  label: Link
-- name: thumbnail
-  type: include
-  config: {}
-  template: image
+  label: ID
+- name: thumb
+  type: file
+  config:
+    maxSize: 64
   label: Thumbnail
-  description: Add Thumbnail
+- name: alt_text
+  type: text
+  config:
+    required: false
+  label: Alt Text
