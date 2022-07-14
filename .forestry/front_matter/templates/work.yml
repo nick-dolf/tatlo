@@ -50,8 +50,8 @@ fields:
   - image
   - embed
   config:
-    min:
-    max:
+    min: 
+    max: 
 - name: date
   type: datetime
   label: Date
@@ -59,7 +59,7 @@ fields:
   config:
     required: false
     date_format: YYYY
-    time_format:
+    time_format: 
     display_utc: false
 - name: date_end
   type: datetime
@@ -68,7 +68,7 @@ fields:
   config:
     required: false
     date_format: YYYY
-    time_format:
+    time_format: 
     display_utc: false
 - name: details
   type: textarea
@@ -81,11 +81,18 @@ fields:
   label: Details
 pages:
 - pages/work/bridled-dance.md
+- pages/work/bridled-dance.md
+- pages/work/department-of-accumulated-thoughts-14th-street-division.md
 - pages/work/department-of-accumulated-thoughts-14th-street-division.md
 - pages/work/department-of-accumulated-thoughts-bowery-division.md
+- pages/work/department-of-accumulated-thoughts-bowery-division.md
 - pages/work/department-of-accumulated-thoughts-brooklyn-division.md
+- pages/work/department-of-accumulated-thoughts-brooklyn-division.md
+- pages/work/in-spirit.md
 - pages/work/in-spirit.md
 - pages/work/inherited-weight.md
 - pages/work/keeping-it-in-the-family.md
+- pages/work/keeping-it-in-the-family.md
+- pages/work/performing-restraint.md
 - pages/work/performing-restraint.md
 - pages/work/weighted-wait.md
