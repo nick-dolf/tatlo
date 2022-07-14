@@ -7,3 +7,8 @@ fields:
   config:
     required: false
   label: Link
+- name: thumbnail
+  type: include
+  config: {}
+  template: image
+  label: Thumbnail
