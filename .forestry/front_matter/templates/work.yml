@@ -49,6 +49,7 @@ fields:
   template_types:
   - image
   - embed
+  - vimeo
   config:
     min: 
     max: 
