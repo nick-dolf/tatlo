@@ -19,11 +19,48 @@ info: "<p><em>Performing Restraint</em> is based on the idea of constraints, own
   of the performance, the mark of our actions, and the visual product of our labor.</p>"
 carousel:
 - template: image
-  src: "/assets/images/_mg_2695.JPG"
+  src: "/assets/images/performing-restraint/Untitled_Panorama1web.jpg"
+  alt_text: The space with a plywood wall.
+- template: embed
+  code: <iframe src="https://player.vimeo.com/video/49579444?h=671753fb25" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  thumb: "/assets/images/performing-restraint/vimeo-thumb.jpeg"
+  alt_text: Vimeo thumbnail, click to play.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2695.JPG"
   alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
 - template: image
-  src: "/assets/images/_mg_2702.JPG"
+  src: "/assets/images/performing-restraint/_MG_2702.JPG"
   alt_text: The artists(Sara, Jade and Michael) fighting on the floor.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2796.JPG"
+  alt_text: The artists(Sara, Jade and Michael) struggling while drawing on the wall.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2804.JPG"
+  alt_text: The artists(Sara, Jade and Michael) looking away from each other.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2974.JPG"
+  alt_text: The artists(Jade and Michael) struggling on the floor.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2982.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting in the corner.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2987.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting on the ground.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_2992.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting on the ground.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_3009.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting in the corner.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_3019.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting in the corner.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_3074.JPG"
+  alt_text: The artists(Sara, Jade and Michael) fighting on the ground.
+- template: image
+  src: "/assets/images/performing-restraint/_MG_3127.JPG"
+  alt_text: The artists(Sara, Jade and Michael) sleeping together on the ground.
 date: 2012-06-01T05:00:00.000+00:00
 date_end:
 details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br><small>Video credit:
