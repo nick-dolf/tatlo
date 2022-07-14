@@ -1,4 +1,9 @@
 ---
 label: Vimeo
 hide_body: true
-fields: []
+fields:
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
