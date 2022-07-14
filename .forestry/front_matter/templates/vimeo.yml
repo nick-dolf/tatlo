@@ -12,3 +12,4 @@ fields:
   config: {}
   template: image
   label: Thumbnail
+  description: Add Thumbnail
