@@ -48,8 +48,9 @@ fields:
   label: Carousel
   template_types:
   - image
-  - embed
   - vimeo
+  - youtube
+  - embed
   config:
     min: 
     max: 
