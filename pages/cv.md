@@ -126,5 +126,3 @@ Parsons The New School for Design, New York, NY.
 University of British Columbia, Vancouver, BC.
 
 Top of the graduating class
-
-© TATLO
