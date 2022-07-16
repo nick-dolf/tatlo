@@ -5,13 +5,21 @@
   margin: 16px
 
   @include tablet
-    margin: 16px 32px
+    margin: 16px 48px
 
 
 
 // Media breakpoints
+@mixin mini
+  @media screen and (min-width: 400px)
+    @content
+
 @mixin tablet
   @media screen and (min-width: 600px)
+    @content
+
+@mixin medium
+  @media screen and (min-width: 800px)
     @content
 
 @mixin desktop

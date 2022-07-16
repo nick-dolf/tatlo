@@ -17,4 +17,4 @@ presets:
       webp: 85
     dimension_attributes: true
     crop: '1:1'
-    widths: [200]
+    widths: [400]
