@@ -4,27 +4,33 @@ let thumbs = document.getElementsByClassName('slide-thumb');
 showSlides(0)
 
 function next() {
-  slideIndex += 1
-  if (slideIndex >= slides.length) {
-     slideIndex = 0
-   }
-  showSlides(slideIndex)
+  showSlides(slideIndex + 1)
 }
 
 function back() {
-  slideIndex -= 1
-  if (slideIndex < 0) {
-    slideIndex = slides.length - 1
-  }
-  showSlides(slideIndex)
+  showSlides(slideIndex - 1)
 }
 
 function showSlides(n) {
+  slideIndex = n;
+
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1
+  } else if (slideIndex >= slides.length) {
+     slideIndex = 0
+   }
+
+   console.log(slideIndex)
+
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"
     thumbs[i].classList.remove('active')
   }
 
-  slides[n].style.display = "flex"
-  thumbs[n].classList.add('active')
+  slides[slideIndex].style.display = "flex"
+  thumbs[slideIndex].classList.add('active')
+  document.getElementById('carousel-section').scrollIntoView({
+    behavior: 'smooth', block: 'center'
+  });
 }

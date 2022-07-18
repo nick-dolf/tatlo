@@ -9,6 +9,7 @@
   padding: 0
   background: $white
   transition: background-color 0.5s
+  cursor: pointer
 
   svg
     stroke: $black
@@ -31,29 +32,32 @@
 
 .slide
   width: 100%
-  height: 500px
+  aspect-ratio: 16 / 9
   display: flex
   align-items: center
   justify-content: center
   order: 2
   background: $black
+  overflow: visible
   @include tablet
     width: calc(100% - 96px)
+
 
   iframe
     height: 500px
     width: 100%
+    margin: auto
 
   .video-embed
-    width: 100%
     max-height: 100%
-    margin: auto
+    width: 100%
     aspect-ratio: 16 / 9
 
 .slide-image
   max-height: 100%
   width: auto
   background: green
+  margin: auto
 
 .slide-embed
   max-height: 100%
@@ -66,27 +70,29 @@
 
 .thumbnails
 
+
   @include tablet
     margin: 0 44px
 
   padding-top: 4px
   display: grid
-  grid-template-columns: auto
+  grid-template-columns: auto auto
 
   @include mini
-    grid-template-columns: auto auto
-
-  @include medium
     grid-template-columns: auto auto auto
 
-  @include desktop
+  @include medium
     grid-template-columns: auto auto auto auto
+
+  @include desktop
+    grid-template-columns: auto auto auto auto auto
 
 
 
 .slide-thumb
   border: 4px solid $white
   font-size: 0
+  cursor: pointer
 
 .active
   border: 4px solid $black
