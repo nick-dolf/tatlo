@@ -10,8 +10,8 @@ info: |2+
   <p>This particular piece is based on a graceful floral garland dance, called "Bulaklakan", celebrated during May in the Philippines during a religious celebration. The objects are altered by making them primarily out of cement to challenge and weigh down our movements. The dance was further transformed in the rough terrain of the lava fields of Eugene, Oregon. We are exploring the implications of cultural traditions that are complicated in a post-colonial context. The dance is meant to confront cultural expectation and exploitation of how bodies perform in space.</p>
 
 carousel:
-- template: embed
-  code: <iframe src="https://player.vimeo.com/video/205838455?h=eae8ec637c&title=0&byline=0&portrait=0" width="640" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+- template: vimeo
+  id: 205838455
   thumb: "/assets/images/bridled-dance/vimeo-thumb.jpeg"
   alt_text: Vimeo thumbnail, click to play.
 - template: image

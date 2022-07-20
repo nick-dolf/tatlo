@@ -8,10 +8,10 @@ info: "<p><em>In Spirit</em>… is a performance dedicated to the victims of Typ
   Haiyan in the Philippines. Through repetitive and slow gesture we wanted to create
   a brief space for pause, mourning and reflection.</p>"
 carousel:
-- template: embed
-  code: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VLPB97Uv4Xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- template: youtube
+  id: VLPB97Uv4Xs
   thumb: "/assets/images/in-spirit/youtube-thumb.jpg"
-  alt_text: Vimeo thumbnail, click to play.
+  alt_text: Youtube thumbnail, click to play.
 - template: image
   src: "/assets/images/img_6362.jpg"
   alt_text: The artists with counting marks on them.

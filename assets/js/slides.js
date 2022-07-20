@@ -31,6 +31,6 @@ function showSlides(n) {
   slides[slideIndex].style.display = "flex"
   thumbs[slideIndex].classList.add('active')
   document.getElementById('carousel-section').scrollIntoView({
-    behavior: 'smooth', block: 'center'
+    behavior: 'smooth', block: 'nearest'
   });
 }
