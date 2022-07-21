@@ -63,7 +63,7 @@ carousel:
   alt_text: The artists(Sara, Jade and Michael) sleeping together on the ground.
 date: 2012-06-01 05:00:00 +0000
 date_end:
-details: "<p>8-hour endurance performance<br>Photo credit: AM DeBrincat<br><small>Video credit:
+details: "<p>8-hour endurance performance<br><small>Photo credit: AM DeBrincat<br>Video credit:
   Claire Robertson<br>With Michael Watson</small></p>"
 
 ---

@@ -144,8 +144,8 @@ carousel:
   alt_text: The artists(Sara, Jade, and Michael) in a family dining room.
 date: 2012-06-01 05:00:00 +0000
 date_end:
-details: "<p>24 hr performance<br>Photo credits: David Connolly, AM DeBrincat, Eyal
+details: "<p>24 hr performance<br><small>Photo credits: David Connolly, AM DeBrincat, Eyal
   Perry, and Caitlin Turski<br>Video credits: Maricruz Alarcón, Grace Hong, and Eyal
-  Perry<br><small>With Michael Watson</small></p>"
+  Perry<br>With Michael Watson</small></p>"
 
 ---

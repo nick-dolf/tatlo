@@ -27,7 +27,7 @@ carousel:
 date: 2013-06-01T05:00:00.000+00:00
 date_end:
 details: "<p>Two-hour performance, sewn silk chiffon, oil pastel, food dye, and metal
-  container<br>Performed at Strange Loop Gallery<br>Photo credit: Cupid Ojala and
-  Caitlin Turski<br><small>Video Credit: Caitlin Turski<br>With Michael Watson</small></p>"
+  container<br>Performed at Strange Loop Gallery<br><small>Photo credit: Cupid Ojala and
+  Caitlin Turski<br>Video Credit: Caitlin Turski<br>With Michael Watson</small></p>"
 
 ---
