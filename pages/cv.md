@@ -13,6 +13,10 @@ Opossum House, Eugene, OR.
 
 #### EXHIBITION/PERFORMANCE/SCREENING
 
+2024 
+
+\[Performance\] Tropical Heat, Untitled Art Fair, Miami, FL. Curated by Kathy Huang and Clara Andrade Pereira. Organized by Asianish Collective.
+
 2019
 
 \[Screening\] Object Subject, "New York Feminist Film Week", Anthology Film Archives, New York, NY. Curated by Maya Suess
